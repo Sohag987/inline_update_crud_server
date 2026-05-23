@@ -16,7 +16,7 @@ app.use(morgan("dev"));
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Sohag@79#21",
+    password: "",
     database: "crud_db",
 });
 
